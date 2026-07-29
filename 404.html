@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hexint Soft</title>
+    <script>
+      // GitHub Pages SPA fallback: this file is served for any unknown path.
+      // It stashes the intended path and redirects to the app's real index.html,
+      // where main.jsx (via App.jsx's routes) restores the correct page.
+      var basePath = '/hexint-soft-website/';
+      var fullPath = window.location.pathname + window.location.search + window.location.hash;
+      var redirectPath = fullPath.indexOf(basePath) === 0 ? fullPath.slice(basePath.length) : fullPath.replace(/^\//, '');
+      sessionStorage.setItem('spa-redirect', redirectPath);
+      window.location.replace(basePath);
+    </script>
+  </head>
+  <body></body>
+</html>

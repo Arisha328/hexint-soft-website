@@ -1,0 +1,74 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#FAF8F6"/>
+
+  <!-- title bar -->
+  <rect x="0" y="0" width="800" height="40" fill="#5E1428"/>
+  <circle cx="24" cy="20" r="5" fill="#F3DCE2"/><circle cx="42" cy="20" r="5" fill="#D28299"/><circle cx="60" cy="20" r="5" fill="#93213E"/>
+  <text x="360" y="25" font-family="monospace" font-size="11" fill="#FFFFFF" opacity="0.9">University Management System — Java · MySQL</text>
+
+  <!-- sidebar -->
+  <rect x="0" y="40" width="180" height="560" fill="#FFFFFF"/>
+  <rect x="180" y="40" width="1" height="560" fill="#E7E1DD"/>
+  <rect x="24" y="68" width="132" height="34" rx="8" fill="#93213E"/>
+  <text x="40" y="90" font-family="monospace" font-size="10" fill="#FFFFFF">Students</text>
+  <rect x="24" y="112" width="132" height="34" rx="8" fill="#F5F1EE"/>
+  <text x="40" y="134" font-family="monospace" font-size="10" fill="#1D1D21" opacity="0.7">Courses</text>
+  <rect x="24" y="156" width="132" height="34" rx="8" fill="#F5F1EE"/>
+  <text x="40" y="178" font-family="monospace" font-size="10" fill="#1D1D21" opacity="0.7">Registration</text>
+  <rect x="24" y="200" width="132" height="34" rx="8" fill="#F5F1EE"/>
+  <text x="40" y="222" font-family="monospace" font-size="10" fill="#1D1D21" opacity="0.7">Academic Records</text>
+
+  <!-- search + actions -->
+  <rect x="204" y="64" width="360" height="30" rx="15" fill="#FFFFFF" stroke="#E7E1DD"/>
+  <text x="222" y="84" font-family="monospace" font-size="10" fill="#1D1D21" opacity="0.4">Search student ID or name…</text>
+  <rect x="592" y="64" width="120" height="30" rx="8" fill="#93213E"/>
+  <text x="614" y="84" font-family="monospace" font-size="10" fill="#FFFFFF">+ New Record</text>
+
+  <!-- table -->
+  <rect x="204" y="112" width="560" height="392" rx="10" fill="#FFFFFF" stroke="#E7E1DD"/>
+  <rect x="204" y="112" width="560" height="36" fill="#FBF3F5"/>
+  <g font-family="monospace" font-size="9" fill="#5E1428">
+    <text x="222" y="134">ROLL NO</text>
+    <text x="322" y="134">NAME</text>
+    <text x="472" y="134">DEPARTMENT</text>
+    <text x="612" y="134">GPA</text>
+    <text x="682" y="134">STATUS</text>
+  </g>
+
+  <g font-family="monospace" font-size="10" fill="#1D1D21">
+    <line x1="204" y1="184" x2="764" y2="184" stroke="#F1EBE7"/>
+    <text x="222" y="172" opacity="0.7">BSCS-041</text>
+    <text x="322" y="172" opacity="0.85">Hina Malik</text>
+    <text x="472" y="172" opacity="0.6">Computer Science</text>
+    <text x="612" y="172" opacity="0.85">3.72</text>
+    <rect x="678" y="158" width="60" height="18" rx="9" fill="#F3DCE2"/><text x="688" y="171" fill="#5E1428" font-size="8">Active</text>
+
+    <line x1="204" y1="228" x2="764" y2="228" stroke="#F1EBE7"/>
+    <text x="222" y="216" opacity="0.7">BSSE-018</text>
+    <text x="322" y="216" opacity="0.85">Usman Ali</text>
+    <text x="472" y="216" opacity="0.6">Software Eng.</text>
+    <text x="612" y="216" opacity="0.85">3.41</text>
+    <rect x="678" y="202" width="60" height="18" rx="9" fill="#F3DCE2"/><text x="688" y="215" fill="#5E1428" font-size="8">Active</text>
+
+    <line x1="204" y1="272" x2="764" y2="272" stroke="#F1EBE7"/>
+    <text x="222" y="260" opacity="0.7">BSIT-027</text>
+    <text x="322" y="260" opacity="0.85">Zara Sheikh</text>
+    <text x="472" y="260" opacity="0.6">Information Tech.</text>
+    <text x="612" y="260" opacity="0.85">3.85</text>
+    <rect x="678" y="246" width="60" height="18" rx="9" fill="#F3DCE2"/><text x="688" y="259" fill="#5E1428" font-size="8">Active</text>
+
+    <line x1="204" y1="316" x2="764" y2="316" stroke="#F1EBE7"/>
+    <text x="222" y="304" opacity="0.7">BSCS-052</text>
+    <text x="322" y="304" opacity="0.85">Bilal Ahmed</text>
+    <text x="472" y="304" opacity="0.6">Computer Science</text>
+    <text x="612" y="304" opacity="0.85">2.98</text>
+    <rect x="678" y="290" width="70" height="18" rx="9" fill="#F3DCE2"/><text x="686" y="303" fill="#5E1428" font-size="8">Probation</text>
+  </g>
+
+  <rect x="204" y="524" width="560" height="70" rx="10" fill="#F5F1EE"/>
+  <rect x="228" y="546" width="140" height="10" rx="5" fill="#1D1D21" opacity="0.35"/>
+  <rect x="600" y="540" width="30" height="22" rx="5" fill="#FFFFFF" stroke="#E7E1DD"/>
+  <rect x="636" y="540" width="30" height="22" rx="5" fill="#93213E"/>
+  <rect x="672" y="540" width="30" height="22" rx="5" fill="#FFFFFF" stroke="#E7E1DD"/>
+  <rect x="708" y="540" width="30" height="22" rx="5" fill="#FFFFFF" stroke="#E7E1DD"/>
+</svg>

@@ -1,0 +1,63 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#0B0B0D"/>
+
+  <!-- console header -->
+  <rect x="0" y="0" width="800" height="50" fill="#141417"/>
+  <circle cx="30" cy="25" r="6" fill="#93213E"/><circle cx="52" cy="25" r="6" fill="#2A2A30"/><circle cx="74" cy="25" r="6" fill="#2A2A30"/>
+  <text x="100" y="30" font-family="monospace" font-size="12" fill="#D28299">flight_management_system.exe — route optimizer</text>
+
+  <!-- graph panel -->
+  <rect x="40" y="80" width="480" height="420" rx="14" fill="#141417" stroke="#2A2A30"/>
+  <g stroke="#3A3A42" stroke-width="1.5" fill="none">
+    <line x1="120" y1="150" x2="260" y2="120" stroke-dasharray="4 4"/>
+    <line x1="120" y1="150" x2="180" y2="300" stroke-dasharray="4 4"/>
+    <line x1="260" y1="120" x2="420" y2="180" stroke-dasharray="4 4"/>
+    <line x1="180" y1="300" x2="340" y2="380" stroke-dasharray="4 4"/>
+    <line x1="420" y1="180" x2="340" y2="380" stroke-dasharray="4 4"/>
+    <line x1="340" y1="380" x2="220" y2="440" stroke-dasharray="4 4"/>
+  </g>
+  <!-- highlighted shortest path -->
+  <polyline points="120,150 260,120 420,180 340,380" fill="none" stroke="#93213E" stroke-width="3"/>
+
+  <g font-family="monospace" font-size="9" fill="#FFFFFF" opacity="0.7">
+    <circle cx="120" cy="150" r="14" fill="#1D1D21" stroke="#93213E" stroke-width="2"/>
+    <text x="112" y="153" fill="#fff">KHI</text>
+    <circle cx="260" cy="120" r="14" fill="#1D1D21" stroke="#93213E" stroke-width="2"/>
+    <text x="252" y="123" fill="#fff">LHE</text>
+    <circle cx="420" cy="180" r="14" fill="#1D1D21" stroke="#93213E" stroke-width="2"/>
+    <text x="412" y="183" fill="#fff">ISB</text>
+    <circle cx="180" cy="300" r="14" fill="#1D1D21" stroke="#2A2A30" stroke-width="2"/>
+    <text x="170" y="303" fill="#fff">DXB</text>
+    <circle cx="340" cy="380" r="14" fill="#1D1D21" stroke="#93213E" stroke-width="2"/>
+    <text x="330" y="383" fill="#fff">DOH</text>
+    <circle cx="220" cy="440" r="14" fill="#1D1D21" stroke="#2A2A30" stroke-width="2"/>
+    <text x="210" y="443" fill="#fff">JED</text>
+  </g>
+
+  <rect x="60" y="440" width="200" height="18" rx="4" fill="#1D1D21"/>
+  <text x="70" y="453" font-family="monospace" font-size="9" fill="#D28299">Dijkstra: shortest path = 4 hops</text>
+
+  <!-- passenger queue panel -->
+  <rect x="540" y="80" width="220" height="420" rx="14" fill="#141417" stroke="#2A2A30"/>
+  <text x="562" y="112" font-family="monospace" font-size="10" fill="#D28299">BOOKING QUEUE</text>
+  <g font-family="monospace" font-size="9" fill="#FFFFFF">
+    <rect x="562" y="130" width="176" height="40" rx="8" fill="#1D1D21"/>
+    <text x="574" y="147" opacity="0.5">#0091</text>
+    <text x="574" y="162" opacity="0.85">A. Hussain → KHI-LHE</text>
+
+    <rect x="562" y="178" width="176" height="40" rx="8" fill="#1D1D21"/>
+    <text x="574" y="195" opacity="0.5">#0092</text>
+    <text x="574" y="210" opacity="0.85">M. Tariq → ISB-DOH</text>
+
+    <rect x="562" y="226" width="176" height="40" rx="8" fill="#93213E"/>
+    <text x="574" y="243" opacity="0.7" fill="#F3DCE2">#0093 · priority</text>
+    <text x="574" y="258" fill="#fff">S. Noor → DXB-JED</text>
+
+    <rect x="562" y="274" width="176" height="40" rx="8" fill="#1D1D21"/>
+    <text x="574" y="291" opacity="0.5">#0094</text>
+    <text x="574" y="306" opacity="0.85">R. Iqbal → LHE-DOH</text>
+  </g>
+
+  <rect x="562" y="440" width="176" height="40" rx="8" fill="none" stroke="#2A2A30"/>
+  <text x="574" y="464" font-family="monospace" font-size="9" fill="#D28299">Priority-queue processed: 128</text>
+</svg>
